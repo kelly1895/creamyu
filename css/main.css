@@ -22,7 +22,7 @@ header .menu  ul {
 
 /*----------------------------------PORTADA------------*/
 .portada{
-    background: url(/img/creamy.jpg);
+    background: url(../img/creamy.jpg);
     background-size:cover;
    background-position: center;
     
@@ -38,8 +38,13 @@ header .menu  ul {
     opacity: 0.7;
 }
 
+.box h2 {
+    font-family: "Merriweather";
+}
 
-
+.box p {
+    font-family: "Open Sans";
+}
 
 /*-----------------------------------CREAMY------------*/
 .creamy{
@@ -49,6 +54,9 @@ header .menu  ul {
     padding: 30px 0;
 }
 
+h3{
+    font-family: "Open+Sans";
+}
 /*-----------------------------------ABOUT------------*/
 .about{
     background: rgb(218,44,56);
