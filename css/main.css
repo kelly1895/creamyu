@@ -1,0 +1,18 @@
+/* Inserta tu código aquí */
+.navbar {
+    background: none;
+    border: none;
+}
+.nav {
+    padding: 0 20px 0 0;
+}
+.navbar a {
+    color:#fff !important;
+}
+.nav li a:hover, .nav li a:focus {
+    font-weight: bold !important;
+}
+.nav li:hover {
+    font-size:18px;
+    transition:all 0.5s;
+}
