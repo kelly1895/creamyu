@@ -1,18 +1,83 @@
 /* Inserta tu código aquí */
-.navbar {
-    background: none;
-    border: none;
+
+
+/*-----------------------------------HEADER------------*/
+header{
+    background:  rgb(218,44,56);
 }
-.nav {
-    padding: 0 20px 0 0;
+header .navbar {
+    background-color: rgb(218,44,56);!important
 }
-.navbar a {
-    color:#fff !important;
+
+. navbar-header .navbar-brand a{
+    color:yellow;!important
 }
-.nav li a:hover, .nav li a:focus {
-    font-weight: bold !important;
+
+header .navbar{
+    margin: 0;!important
 }
-.nav li:hover {
-    font-size:18px;
-    transition:all 0.5s;
+header .menu  ul {
+    float: right;
+}
+
+/*----------------------------------PORTADA------------*/
+.portada{
+    background: url(/img/creamy.jpg);
+    background-size:cover;
+   background-position: center;
+    
+}
+
+.portada .box{
+    margin: 200px 0;
+    color: rgb(244,240,187);
+}
+
+.fondo-plomo{
+    background:rgb(67,69,67);
+    opacity: 0.7;
+}
+
+
+
+
+/*-----------------------------------CREAMY------------*/
+.creamy{
+    background: rgb(244,240,187);
+    text-align: center;
+    color: rgb(218,44,56);
+    padding: 30px 0;
+}
+
+/*-----------------------------------ABOUT------------*/
+.about{
+    background: rgb(218,44,56);
+    text-align: center;
+    color:  rgb(244,240,187);
+    padding: 40px 10px;
+}
+
+/*-----------------------------------ICONOS------------*/
+.iconos{
+    background: rgb(244,240,187);
+    text-align: center;
+    color: rgb(218,44,56);
+    padding: 50px 0;
+}
+
+.icon-container i{
+    font-size: 60px;
+}
+/*----------------------------------FOOTER-----------*/
+footer{
+    background: rgb(218,44,56);
+    color: rgb(244,240,187);
+    padding: 20px 20px;
+}
+
+/*---------------------------------MEDIA-----------*/
+@media screen and (max-width:999px)and(min-width:768px){
+    footer .txt{
+        margin: 40px;
+    }
 }
